@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
         <capability name="System colors introduced in macOS 10.14" minToolsVersion="10.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,26 +11,25 @@
         <scene sceneID="pA0-6v-Ah6">
             <objects>
                 <viewController storyboardIdentifier="DevicesViewController" id="nHE-zk-b2f" customClass="DevicesViewController" customModule="Bagel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="AEG-1b-Td5">
-                        <rect key="frame" x="0.0" y="0.0" width="200" height="582"/>
+                    <view key="view" misplaced="YES" id="AEG-1b-Td5">
+                        <rect key="frame" x="0.0" y="0.0" width="220" height="552"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="60" horizontalPageScroll="10" verticalLineScroll="60" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OF6-sc-7OV">
-                                <rect key="frame" x="0.0" y="0.0" width="200" height="582"/>
+                                <rect key="frame" x="0.0" y="0.0" width="220" height="462"/>
                                 <clipView key="contentView" drawsBackground="NO" id="cgg-37-JNG">
-                                    <rect key="frame" x="0.0" y="0.0" width="200" height="582"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="220" height="462"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="sequential" selectionHighlightStyle="none" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="60" rowSizeStyle="automatic" viewBased="YES" id="712-Zh-6So" customClass="BaseTableView" customModule="Bagel" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="200" height="552"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="220" height="432"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="0.0"/>
                                             <color key="backgroundColor" name="alternatingContentBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn width="197" minWidth="40" maxWidth="1000" id="pu9-aC-DpV" userLabel="Device Info">
+                                                <tableColumn width="188" minWidth="40" maxWidth="1000" id="pu9-aC-DpV" userLabel="Device Info">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Device Name">
-                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
@@ -42,7 +41,7 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="DeviceTableCellView" focusRingType="none" id="C9i-hu-6d7" customClass="DeviceTableCellView" customModule="Bagel" customModuleProvider="target">
-                                                            <rect key="frame" x="1" y="0.0" width="197" height="60"/>
+                                                            <rect key="frame" x="11" y="0.0" width="197" height="60"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <box boxType="custom" borderWidth="0.0" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="AdA-W2-Hop">
@@ -54,23 +53,23 @@
                                                                     <color key="fillColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                 </box>
                                                                 <box boxType="custom" borderWidth="0.0" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="cTJ-1y-D5g">
-                                                                    <rect key="frame" x="15" y="12" width="167" height="36"/>
+                                                                    <rect key="frame" x="15" y="15" width="167" height="30"/>
                                                                     <view key="contentView" id="dIv-Co-U5R">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="167" height="36"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="167" height="30"/>
                                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                         <subviews>
                                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5He-ss-CRR">
-                                                                                <rect key="frame" x="3" y="15" width="161" height="21"/>
+                                                                                <rect key="frame" x="3" y="13" width="161" height="17"/>
                                                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Label" id="eDG-YP-TlI">
-                                                                                    <font key="font" size="14" name="EffraMedium-Regular"/>
+                                                                                    <font key="font" metaFont="system" size="14"/>
                                                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                 </textFieldCell>
                                                                             </textField>
                                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="w1x-VA-YQg">
-                                                                                <rect key="frame" x="3" y="0.0" width="161" height="15"/>
+                                                                                <rect key="frame" x="3" y="0.0" width="161" height="13"/>
                                                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="dememe" id="4HG-uh-d6T">
-                                                                                    <font key="font" size="10" name="Effra-Regular"/>
+                                                                                    <font key="font" metaFont="system" size="10"/>
                                                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                 </textFieldCell>

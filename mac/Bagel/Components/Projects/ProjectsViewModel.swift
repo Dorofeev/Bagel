@@ -6,7 +6,11 @@
 //  Copyright © 2018 Yagiz Lab. All rights reserved.
 //
 
+#if !os(iOS)
 import Cocoa
+#else
+import Foundation
+#endif
 
 class ProjectsViewModel: BaseListViewModel<BagelProjectController> {
 
@@ -32,8 +36,7 @@ class ProjectsViewModel: BaseListViewModel<BagelProjectController> {
     }
     
     @objc func refreshItems() {
-        
-        self.set(items: BagelController.shared.projectControllers) 
+        self.set(items: BagelController.shared.projectControllers)
         self.onChange?()
     }
 }

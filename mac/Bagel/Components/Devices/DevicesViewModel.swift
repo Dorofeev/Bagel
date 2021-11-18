@@ -6,7 +6,11 @@
 //  Copyright © 2018 Yagiz Lab. All rights reserved.
 //
 
+#if !os(iOS)
 import Cocoa
+#else
+import Foundation
+#endif
 
 class DevicesViewModel: BaseListViewModel<BagelDeviceController>  {
 

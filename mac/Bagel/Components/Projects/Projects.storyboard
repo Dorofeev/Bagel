@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -10,26 +10,25 @@
         <scene sceneID="5yN-Qz-EoG">
             <objects>
                 <viewController storyboardIdentifier="ProjectsViewController" id="wK5-01-pwT" customClass="ProjectsViewController" customModule="Bagel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="2pn-fv-ey1">
-                        <rect key="frame" x="0.0" y="0.0" width="110" height="584"/>
+                    <view key="view" misplaced="YES" id="2pn-fv-ey1">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="554"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="50" horizontalPageScroll="10" verticalLineScroll="50" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbn-76-5ug">
-                                <rect key="frame" x="0.0" y="0.0" width="110" height="584"/>
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="374"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="LNH-Jb-IyL">
-                                    <rect key="frame" x="0.0" y="0.0" width="110" height="584"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="130" height="374"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="none" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="50" rowSizeStyle="automatic" viewBased="YES" id="m5V-dH-ozv" customClass="BaseTableView" customModule="Bagel" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="110" height="554"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="130" height="344"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="0.0"/>
                                             <color key="backgroundColor" name="windowFrameTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn width="107" minWidth="40" maxWidth="1000" id="rGP-F4-s0d">
+                                                <tableColumn width="98" minWidth="40" maxWidth="1000" id="rGP-F4-s0d">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
@@ -41,7 +40,7 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="ProjectTableCellView" focusRingType="none" id="S3p-Mx-L3L" customClass="ProjectTableCellView" customModule="Bagel" customModuleProvider="target">
-                                                            <rect key="frame" x="1" y="0.0" width="107" height="50"/>
+                                                            <rect key="frame" x="11" y="0.0" width="107" height="50"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <box boxType="custom" borderWidth="0.0" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="HfR-R3-Cs4">
@@ -54,7 +53,7 @@
                                                                     <color key="fillColor" red="0.53333333333333333" green="0.32941176470588235" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </box>
                                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTZ-eS-sg0">
-                                                                    <rect key="frame" x="8" y="17" width="37" height="17"/>
+                                                                    <rect key="frame" x="8" y="17" width="37" height="16"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="left" title="Label" id="Tv4-Qg-efw">
                                                                         <font key="font" metaFont="system"/>
                                                                         <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

@@ -8,6 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		1191142A21F8B9CB00BFCA48 /* CURLRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191142921F8B9CB00BFCA48 /* CURLRepresentation.swift */; };
+		4961BFE8272B9E5A0026AE74 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961BFE7272B9E5A0026AE74 /* MainCoordinator.swift */; };
+		49E956B82726A08200C1714F /* PacketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E956B62726A08200C1714F /* PacketsViewController.swift */; };
+		49E956B92726A08200C1714F /* PacketsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E956B72726A08200C1714F /* PacketsViewController.xib */; };
+		49E956BD2726BC2300C1714F /* PacketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E956BB2726BC2300C1714F /* PacketTableViewCell.swift */; };
+		49E956BE2726BC2300C1714F /* PacketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E956BC2726BC2300C1714F /* PacketTableViewCell.xib */; };
+		49E956BF2726C3E300C1714F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB9AB8217DD653008BBF3C /* Date.swift */; };
+		49EA2EDB27229AB800FE7354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2EDA27229AB800FE7354 /* AppDelegate.swift */; };
+		49EA2EDD27229AB800FE7354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2EDC27229AB800FE7354 /* SceneDelegate.swift */; };
+		49EA2EDF27229AB800FE7354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2EDE27229AB800FE7354 /* ViewController.swift */; };
+		49EA2EE227229AB800FE7354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EA2EE027229AB800FE7354 /* Main.storyboard */; };
+		49EA2EE427229ABB00FE7354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EA2EE327229ABB00FE7354 /* Assets.xcassets */; };
+		49EA2EE727229ABB00FE7354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EA2EE527229ABB00FE7354 /* LaunchScreen.storyboard */; };
+		49EA2EEF27229BA500FE7354 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2EED27229BA500FE7354 /* ProjectsViewController.swift */; };
+		49EA2EF027229BA500FE7354 /* ProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EA2EEE27229BA500FE7354 /* ProjectsViewController.xib */; };
+		49EA2EF327229D2E00FE7354 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC854221384685001EC6D7 /* BaseViewModel.swift */; };
+		49EA2EF427229D5800FE7354 /* BaseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC8544213846B0001EC6D7 /* BaseListViewModel.swift */; };
+		49EA2EF92722AF1C00FE7354 /* BagelRequestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC5CB9213C7435004E5995 /* BagelRequestInfo.swift */; };
+		49EA2EFB2722AF5D00FE7354 /* BagelProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC854B213848FD001EC6D7 /* BagelProjectModel.swift */; };
+		49EA2EFD2722AFB000FE7354 /* BagelDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC854D2138490E001EC6D7 /* BagelDeviceModel.swift */; };
+		49EA2EFE2722AFB900FE7354 /* BagelPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC854F21384981001EC6D7 /* BagelPacket.swift */; };
+		49EA2F7D2723267E00FE7354 /* BagelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA60B40216201B900B9DCAD /* BagelConfiguration.swift */; };
+		49EA2F7E2723269500FE7354 /* BagelPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73DFAD215BFB18002E533B /* BagelPublisher.swift */; };
+		49EA2F7F272326AE00FE7354 /* BagelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD86E1215916C9009CBEA7 /* BagelController.swift */; };
+		49EA2F80272326E600FE7354 /* BagelDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD86E52159172B009CBEA7 /* BagelDeviceController.swift */; };
+		49EA2F822723271200FE7354 /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC853F21384667001EC6D7 /* ProjectsViewModel.swift */; };
+		49EA2F832723272100FE7354 /* BagelProjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD86E3215916E0009CBEA7 /* BagelProjectController.swift */; };
+		49EA2F842723276D00FE7354 /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA60B432162395000B9DCAD /* DevicesViewModel.swift */; };
+		49EA2F852723281A00FE7354 /* PacketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA60B472162403F00B9DCAD /* PacketsViewModel.swift */; };
+		49EA2F862723284900FE7354 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61DA742162B976000F6D2F /* DetailViewModel.swift */; };
+		49EA2F8D2723FF1000FE7354 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2F8B2723FF1000FE7354 /* ProjectTableViewCell.swift */; };
+		49EA2F8E2723FF1000FE7354 /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EA2F8C2723FF1000FE7354 /* ProjectTableViewCell.xib */; };
+		49EA2F9127240D3200FE7354 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2F9027240D3200FE7354 /* LightTheme.swift */; };
+		49EA2F9327240DF000FE7354 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2F9227240DF000FE7354 /* UIColor+extension.swift */; };
+		49EA2F97272596F800FE7354 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2F95272596F800FE7354 /* DevicesViewController.swift */; };
+		49EA2F98272596F900FE7354 /* DevicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EA2F96272596F800FE7354 /* DevicesViewController.xib */; };
+		49EA2F9C2725992000FE7354 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA2F9A2725992000FE7354 /* DeviceTableViewCell.swift */; };
+		49EA2F9D2725992000FE7354 /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EA2F9B2725992000FE7354 /* DeviceTableViewCell.xib */; };
+		6C8F07B7EAAD6FAE06D490A2 /* Pods_BagelIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164327577B693EFDA29B4429 /* Pods_BagelIos.framework */; };
 		8A814D05228ECCED0049A64E /* DetailSectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A814D04228ECCED0049A64E /* DetailSectionProtocol.swift */; };
 		8A814D07229025FF0049A64E /* VerticallyCenteredTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A814D06229025FF0049A64E /* VerticallyCenteredTextFieldCell.swift */; };
 		9AAA3A9C54B46F8D2C8DD674 /* Pods_Bagel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3BE2EECB0984D92EFCA30 /* Pods_Bagel.framework */; };
@@ -117,7 +155,33 @@
 
 /* Begin PBXFileReference section */
 		00E3BE2EECB0984D92EFCA30 /* Pods_Bagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0258F19FC41DF11DA7D4A89B /* Pods-BagelIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BagelIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-BagelIos/Pods-BagelIos.release.xcconfig"; sourceTree = "<group>"; };
 		1191142921F8B9CB00BFCA48 /* CURLRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURLRepresentation.swift; sourceTree = "<group>"; };
+		164327577B693EFDA29B4429 /* Pods_BagelIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BagelIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4961BFE7272B9E5A0026AE74 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		49E956B62726A08200C1714F /* PacketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketsViewController.swift; sourceTree = "<group>"; };
+		49E956B72726A08200C1714F /* PacketsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PacketsViewController.xib; sourceTree = "<group>"; };
+		49E956BB2726BC2300C1714F /* PacketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTableViewCell.swift; sourceTree = "<group>"; };
+		49E956BC2726BC2300C1714F /* PacketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PacketTableViewCell.xib; sourceTree = "<group>"; };
+		49EA2ED827229AB600FE7354 /* BagelIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BagelIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EA2EDA27229AB800FE7354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49EA2EDC27229AB800FE7354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49EA2EDE27229AB800FE7354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49EA2EE127229AB800FE7354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49EA2EE327229ABB00FE7354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49EA2EE627229ABB00FE7354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49EA2EE827229ABB00FE7354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49EA2EED27229BA500FE7354 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		49EA2EEE27229BA500FE7354 /* ProjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectsViewController.xib; sourceTree = "<group>"; };
+		49EA2F8B2723FF1000FE7354 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		49EA2F8C2723FF1000FE7354 /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
+		49EA2F9027240D3200FE7354 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		49EA2F9227240DF000FE7354 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		49EA2F95272596F800FE7354 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		49EA2F96272596F800FE7354 /* DevicesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesViewController.xib; sourceTree = "<group>"; };
+		49EA2F9A2725992000FE7354 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		49EA2F9B2725992000FE7354 /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceTableViewCell.xib; sourceTree = "<group>"; };
+		4F43C361C88C1843A35FB667 /* Pods-BagelIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BagelIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BagelIos/Pods-BagelIos.debug.xcconfig"; sourceTree = "<group>"; };
 		8A814D04228ECCED0049A64E /* DetailSectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSectionProtocol.swift; sourceTree = "<group>"; };
 		8A814D06229025FF0049A64E /* VerticallyCenteredTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticallyCenteredTextFieldCell.swift; sourceTree = "<group>"; };
 		BC1F5B36216746D30045C871 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
@@ -217,6 +281,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		49EA2ED527229AB500FE7354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8F07B7EAAD6FAE06D490A2 /* Pods_BagelIos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCD0E020210F5E0D00CE5C7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,10 +322,104 @@
 			path = CURLRepresentation;
 			sourceTree = "<group>";
 		};
+		4961BFE6272B9E4A0026AE74 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4961BFE7272B9E5A0026AE74 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		49E956B527269B7E00C1714F /* PacketsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49E956BA2726BBF600C1714F /* Cells */,
+				49E956B62726A08200C1714F /* PacketsViewController.swift */,
+				49E956B72726A08200C1714F /* PacketsViewController.xib */,
+			);
+			path = PacketsViewController;
+			sourceTree = "<group>";
+		};
+		49E956BA2726BBF600C1714F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				49E956BB2726BC2300C1714F /* PacketTableViewCell.swift */,
+				49E956BC2726BC2300C1714F /* PacketTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		49EA2ED927229AB800FE7354 /* BagelIos */ = {
+			isa = PBXGroup;
+			children = (
+				4961BFE6272B9E4A0026AE74 /* Coordinator */,
+				49EA2F8F27240D2200FE7354 /* Theme */,
+				49EA2EEC27229B8C00FE7354 /* ProjectsViewController */,
+				49EA2F942725966100FE7354 /* DevicesViewController */,
+				49E956B527269B7E00C1714F /* PacketsViewController */,
+				49EA2EDA27229AB800FE7354 /* AppDelegate.swift */,
+				49EA2EDC27229AB800FE7354 /* SceneDelegate.swift */,
+				49EA2EDE27229AB800FE7354 /* ViewController.swift */,
+				49EA2EE027229AB800FE7354 /* Main.storyboard */,
+				49EA2EE327229ABB00FE7354 /* Assets.xcassets */,
+				49EA2EE527229ABB00FE7354 /* LaunchScreen.storyboard */,
+				49EA2EE827229ABB00FE7354 /* Info.plist */,
+			);
+			path = BagelIos;
+			sourceTree = "<group>";
+		};
+		49EA2EEC27229B8C00FE7354 /* ProjectsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49EA2F872723FE7500FE7354 /* Cell */,
+				49EA2EED27229BA500FE7354 /* ProjectsViewController.swift */,
+				49EA2EEE27229BA500FE7354 /* ProjectsViewController.xib */,
+			);
+			path = ProjectsViewController;
+			sourceTree = "<group>";
+		};
+		49EA2F872723FE7500FE7354 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				49EA2F8B2723FF1000FE7354 /* ProjectTableViewCell.swift */,
+				49EA2F8C2723FF1000FE7354 /* ProjectTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		49EA2F8F27240D2200FE7354 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				49EA2F9027240D3200FE7354 /* LightTheme.swift */,
+				49EA2F9227240DF000FE7354 /* UIColor+extension.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		49EA2F942725966100FE7354 /* DevicesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49EA2F99272598FA00FE7354 /* DeviceTableViewCell */,
+				49EA2F95272596F800FE7354 /* DevicesViewController.swift */,
+				49EA2F96272596F800FE7354 /* DevicesViewController.xib */,
+			);
+			path = DevicesViewController;
+			sourceTree = "<group>";
+		};
+		49EA2F99272598FA00FE7354 /* DeviceTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				49EA2F9A2725992000FE7354 /* DeviceTableViewCell.swift */,
+				49EA2F9B2725992000FE7354 /* DeviceTableViewCell.xib */,
+			);
+			path = DeviceTableViewCell;
+			sourceTree = "<group>";
+		};
 		659EF5768D424A8F8EEB1541 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				00E3BE2EECB0984D92EFCA30 /* Pods_Bagel.framework */,
+				164327577B693EFDA29B4429 /* Pods_BagelIos.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -451,6 +617,7 @@
 				BCD0E025210F5E0D00CE5C7B /* Bagel */,
 				BCD0E038210F5E0D00CE5C7B /* BagelTests */,
 				BCD0E043210F5E0D00CE5C7B /* BagelUITests */,
+				49EA2ED927229AB800FE7354 /* BagelIos */,
 				BCD0E024210F5E0D00CE5C7B /* Products */,
 				DE6C4711091F42DCE97894B2 /* Pods */,
 				659EF5768D424A8F8EEB1541 /* Frameworks */,
@@ -463,6 +630,7 @@
 				BCD0E023210F5E0D00CE5C7B /* Bagel.app */,
 				BCD0E035210F5E0D00CE5C7B /* BagelTests.xctest */,
 				BCD0E040210F5E0D00CE5C7B /* BagelUITests.xctest */,
+				49EA2ED827229AB600FE7354 /* BagelIos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -647,6 +815,8 @@
 			children = (
 				D3BC1136B2E3E3417E241E77 /* Pods-Bagel.debug.xcconfig */,
 				CF8C8D13D8DDE9F8E381A103 /* Pods-Bagel.release.xcconfig */,
+				4F43C361C88C1843A35FB667 /* Pods-BagelIos.debug.xcconfig */,
+				0258F19FC41DF11DA7D4A89B /* Pods-BagelIos.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -654,6 +824,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		49EA2ED727229AB500FE7354 /* BagelIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EA2EEB27229ABB00FE7354 /* Build configuration list for PBXNativeTarget "BagelIos" */;
+			buildPhases = (
+				2C86BF018CABCDB5B4A0DBBE /* [CP] Check Pods Manifest.lock */,
+				49EA2ED427229AB500FE7354 /* Sources */,
+				49EA2ED527229AB500FE7354 /* Frameworks */,
+				49EA2ED627229AB500FE7354 /* Resources */,
+				9654C2A3DD3C5D45CCC5C2A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BagelIos;
+			productName = BagelIos;
+			productReference = 49EA2ED827229AB600FE7354 /* BagelIos.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BCD0E022210F5E0D00CE5C7B /* Bagel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD0E049210F5E0D00CE5C7B /* Build configuration list for PBXNativeTarget "Bagel" */;
@@ -715,10 +904,14 @@
 		BCD0E01B210F5E0D00CE5C7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yagiz Lab";
 				TargetAttributes = {
+					49EA2ED727229AB500FE7354 = {
+						CreatedOnToolsVersion = 12.5.1;
+						ProvisioningStyle = Automatic;
+					};
 					BCD0E022210F5E0D00CE5C7B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
@@ -751,11 +944,28 @@
 				BCD0E022210F5E0D00CE5C7B /* Bagel */,
 				BCD0E034210F5E0D00CE5C7B /* BagelTests */,
 				BCD0E03F210F5E0D00CE5C7B /* BagelUITests */,
+				49EA2ED727229AB500FE7354 /* BagelIos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		49EA2ED627229AB500FE7354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EA2EF027229BA500FE7354 /* ProjectsViewController.xib in Resources */,
+				49EA2EE727229ABB00FE7354 /* LaunchScreen.storyboard in Resources */,
+				49E956BE2726BC2300C1714F /* PacketTableViewCell.xib in Resources */,
+				49EA2F98272596F900FE7354 /* DevicesViewController.xib in Resources */,
+				49EA2F9D2725992000FE7354 /* DeviceTableViewCell.xib in Resources */,
+				49E956B92726A08200C1714F /* PacketsViewController.xib in Resources */,
+				49EA2F8E2723FF1000FE7354 /* ProjectTableViewCell.xib in Resources */,
+				49EA2EE427229ABB00FE7354 /* Assets.xcassets in Resources */,
+				49EA2EE227229AB800FE7354 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCD0E021210F5E0D00CE5C7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -819,6 +1029,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2C86BF018CABCDB5B4A0DBBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BagelIos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		583C57879823A703C3A5CC55 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -826,7 +1058,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Bagel/Pods-Bagel-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket-macOS/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/Highlightr/Highlightr.framework",
 				"${BUILT_PRODUCTS_DIR}/macOSThemeKit/macOSThemeKit.framework",
 			);
@@ -841,9 +1073,64 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bagel/Pods-Bagel-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9654C2A3DD3C5D45CCC5C2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BagelIos/Pods-BagelIos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket-iOS/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BagelIos/Pods-BagelIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		49EA2ED427229AB500FE7354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EA2EEF27229BA500FE7354 /* ProjectsViewController.swift in Sources */,
+				4961BFE8272B9E5A0026AE74 /* MainCoordinator.swift in Sources */,
+				49EA2F97272596F800FE7354 /* DevicesViewController.swift in Sources */,
+				49EA2EFE2722AFB900FE7354 /* BagelPacket.swift in Sources */,
+				49EA2F852723281A00FE7354 /* PacketsViewModel.swift in Sources */,
+				49EA2F842723276D00FE7354 /* DevicesViewModel.swift in Sources */,
+				49EA2EF92722AF1C00FE7354 /* BagelRequestInfo.swift in Sources */,
+				49EA2EFD2722AFB000FE7354 /* BagelDeviceModel.swift in Sources */,
+				49EA2F9C2725992000FE7354 /* DeviceTableViewCell.swift in Sources */,
+				49EA2EF427229D5800FE7354 /* BaseListViewModel.swift in Sources */,
+				49EA2F862723284900FE7354 /* DetailViewModel.swift in Sources */,
+				49EA2EF327229D2E00FE7354 /* BaseViewModel.swift in Sources */,
+				49EA2EDF27229AB800FE7354 /* ViewController.swift in Sources */,
+				49EA2F7D2723267E00FE7354 /* BagelConfiguration.swift in Sources */,
+				49EA2F7E2723269500FE7354 /* BagelPublisher.swift in Sources */,
+				49EA2EFB2722AF5D00FE7354 /* BagelProjectModel.swift in Sources */,
+				49EA2F822723271200FE7354 /* ProjectsViewModel.swift in Sources */,
+				49EA2EDB27229AB800FE7354 /* AppDelegate.swift in Sources */,
+				49EA2F8D2723FF1000FE7354 /* ProjectTableViewCell.swift in Sources */,
+				49EA2EDD27229AB800FE7354 /* SceneDelegate.swift in Sources */,
+				49EA2F832723272100FE7354 /* BagelProjectController.swift in Sources */,
+				49EA2F7F272326AE00FE7354 /* BagelController.swift in Sources */,
+				49EA2F9327240DF000FE7354 /* UIColor+extension.swift in Sources */,
+				49EA2F9127240D3200FE7354 /* LightTheme.swift in Sources */,
+				49E956BD2726BC2300C1714F /* PacketTableViewCell.swift in Sources */,
+				49E956B82726A08200C1714F /* PacketsViewController.swift in Sources */,
+				49E956BF2726C3E300C1714F /* Date.swift in Sources */,
+				49EA2F80272326E600FE7354 /* BagelDeviceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCD0E01F210F5E0D00CE5C7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -952,6 +1239,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		49EA2EE027229AB800FE7354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EA2EE127229AB800FE7354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49EA2EE527229ABB00FE7354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EA2EE627229ABB00FE7354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		BCD0E02C210F5E0D00CE5C7B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -963,6 +1266,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		49EA2EE927229ABB00FE7354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F43C361C88C1843A35FB667 /* Pods-BagelIos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHL6FF2YWL;
+				INFOPLIST_FILE = BagelIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorofeev.BagelIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49EA2EEA27229ABB00FE7354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0258F19FC41DF11DA7D4A89B /* Pods-BagelIos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHL6FF2YWL;
+				INFOPLIST_FILE = BagelIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorofeev.BagelIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		BCD0E047210F5E0D00CE5C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1081,11 +1430,11 @@
 				CODE_SIGN_ENTITLEMENTS = Bagel/Bagel.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZHL6FF2YWL;
 				INFOPLIST_FILE = Bagel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.Bagel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorofeev.Bagel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1100,11 +1449,11 @@
 				CODE_SIGN_ENTITLEMENTS = Bagel/Bagel.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZHL6FF2YWL;
 				INFOPLIST_FILE = Bagel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.Bagel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorofeev.Bagel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1180,6 +1529,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		49EA2EEB27229ABB00FE7354 /* Build configuration list for PBXNativeTarget "BagelIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EA2EE927229ABB00FE7354 /* Debug */,
+				49EA2EEA27229ABB00FE7354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BCD0E01E210F5E0D00CE5C7B /* Build configuration list for PBXProject "Bagel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

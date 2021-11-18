@@ -6,7 +6,9 @@
 //  Copyright © 2018 Yagiz Lab. All rights reserved.
 //
 
+#if !os(iOS)
 import Cocoa
+#endif
 
 class BaseListViewModel<T>: BaseViewModel {
 
